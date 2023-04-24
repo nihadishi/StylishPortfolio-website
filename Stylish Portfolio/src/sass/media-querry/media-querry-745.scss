@@ -1,0 +1,23 @@
+@media screen and (max-width:745px){
+    .section__three{
+        height: 770px;
+        &__div-grid{
+            flex-wrap: wrap;
+            @include center;
+        }
+
+
+    }
+    
+
+
+    .section__five{
+        height: 1600px;
+        &__div-grid{
+            flex-direction: column;
+            &item{
+                width: 450px;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin buttonstandart{
+    color: white;
+    text-transform: $capital-case;
+    background-color: $buttoncolorblue;
+    padding: 18px 28px;
+    border-radius: 6px;
+    border-color: none;
+    font-weight: $fontweightthin;
+    border: 0px solid;
+    transition: 0.5s;
+}

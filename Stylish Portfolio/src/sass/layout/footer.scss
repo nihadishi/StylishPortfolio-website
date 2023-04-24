@@ -1,0 +1,23 @@
+footer{
+    height: 200px;
+    @include center;
+    flex-direction: column;
+}
+.social{
+
+    & i{
+        color: $buttoncolorblue;
+        font-size: 3rem;
+        margin: 3px 3px 3px 3px;
+        transition: 0.7s;
+        &:hover{
+            color: $buttoncolorbluehover;
+        }
+    }
+}
+.copyright{
+    margin-top: 30px;
+    font-weight: $fontweightthin;
+    font-size: 0.8rem;
+    color: $seconecolorblack;
+}
