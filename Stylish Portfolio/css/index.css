@@ -15,7 +15,7 @@ body {
 }
 
 .section__one {
-  background-image: url(/img/section__one-background.jpg);
+  background-image: url(../img/section__one-background.jpg);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -164,7 +164,7 @@ body {
 }
 
 .section__four {
-  background-image: url(/img/section__four-background.jpg);
+  background-image: url(../img/section__four-background.jpg);
   width: 100%;
   height: 500px;
   display: flex;
